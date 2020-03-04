@@ -1,6 +1,4 @@
 """
-Spyder Editor
-
 Euclid's algorithm
 """
 import time
@@ -13,5 +11,3 @@ def euclid(num1, num2, displayCalculations=False):
             time.sleep(1)
             print(numbers)
     return numbers[-2]
-
-print(euclid(90, 16))
